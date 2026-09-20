@@ -1,0 +1,6 @@
+com\sistem\game\Main.class
+controller\GameController.class
+model\GameMobile.class
+model\Game.class
+view\ConsoleView.class
+model\GamePC.class
