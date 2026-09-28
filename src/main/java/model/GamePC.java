@@ -26,8 +26,7 @@ public class GamePC extends Game {
 
     @Override
     public void tampilkanDetail() {
-        System.out.println("[GAME PC] ID: " + getIdGame() + " | Nama: " + getNamaGame() + 
-                           " | Harga: Rp " + getHarga() + " | RAM Min: " + minimumRamGb + 
-                           " GB | Platform: " + platformDistribusi);
+        System.out.printf("| %-5s | %-28s | %-12s | Rp %-9.0f | RAM: %-2d GB, Dist: %-9s |%n", 
+                getIdGame(), getNamaGame(), "PC Game", getHarga(), minimumRamGb, platformDistribusi);
     }
 }

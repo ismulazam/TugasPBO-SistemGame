@@ -26,8 +26,7 @@ public class GameMobile extends Game {
 
     @Override
     public void tampilkanDetail() {
-        System.out.println("[GAME MOBILE] ID: " + getIdGame() + " | Nama: " + getNamaGame() + 
-                           " | Harga: Rp " + getHarga() + " | Storage: " + ukuranStorageGb + 
-                           " GB | OS: " + dukunganOs);
-    }
+        System.out.printf("| %-5s | %-28s | %-12s | Rp %-9.0f | Size: %-4.1f GB, OS: %-8s |%n", 
+             getIdGame(), getNamaGame(), "Mobile Game", getHarga(), ukuranStorageGb, dukunganOs);
+        }
 }
